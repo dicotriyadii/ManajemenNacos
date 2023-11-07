@@ -1,0 +1,55 @@
+CRITICAL - 2023-10-17 08:14:48 --> require(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\dashboard.php on line 653.
+ 1 APPPATH\Views\dashboard.php(653): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project\\ManajemenNacos\\core\\app\\Views\\dashboard.php', 653)
+ 2 APPPATH\Views\dashboard.php(653): require()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\project\\ManajemenNacos\\core\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 08:15:18 --> require(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\dashboard.php on line 653.
+ 1 APPPATH\Views\dashboard.php(653): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project\\ManajemenNacos\\core\\app\\Views\\dashboard.php', 653)
+ 2 APPPATH\Views\dashboard.php(653): require()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\project\\ManajemenNacos\\core\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 08:16:02 --> require(link/sidebar.php): Failed to open stream: No such file or directory
+in APPPATH\Views\link\header.php on line 272.
+ 1 APPPATH\Views\link\header.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(link/sidebar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\project\\ManajemenNacos\\core\\app\\Views\\link\\header.php', 272)
+ 2 APPPATH\Views\link\header.php(272): require()
+ 3 APPPATH\Views\dashboard.php(2): require('C:\\xampp\\htdocs\\project\\ManajemenNacos\\core\\app\\Views\\link\\header.php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\project\\ManajemenNacos\\core\\app\\Views\\dashboard.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:49:17 --> Invalid file: "mastr_akses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mastr_akses.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mastr_akses', [], true)
+ 3 APPPATH\Controllers\Page.php(44): view('mastr_akses')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Page->masterAkses()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:49:34 --> Invalid file: "mastr_akses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mastr_akses.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mastr_akses', [], true)
+ 3 APPPATH\Controllers\Page.php(44): view('mastr_akses')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Page->masterAkses()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
